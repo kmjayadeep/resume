@@ -17,3 +17,40 @@ Educations:
     Marks: "CGPA: 8.0"
     Location: College Of Engineering, Trivandrum
     Year: 2017
+Skills:
+  - Type: Cloud
+    Items:
+    - Docker
+    - Kubernetes
+    - Operator SDK
+    - Kubebuilder
+    - Jenkins
+    - ArgoCD
+    - Terraform
+  - Type: Languages
+    Items:
+    - Go
+    - Java
+    - Javascript
+    - Nodejs
+    - Bash
+    - Python
+  - Type: Frameworks
+    Items:
+    - Gin
+    - React
+    - Angular
+    - Express
+  - Type: Others
+    Items:
+    - Vim
+    - Version Control
+    - Mysql
+    - Mongodb
+    - AWS
+    - GCP
+  - Type: General
+    Items:
+    - Good Debugging Skills
+    - Open Source Contributor
+    - Linux Enthusiast

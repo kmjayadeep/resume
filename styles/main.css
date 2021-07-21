@@ -60,3 +60,30 @@
   font-weight: bold;
   font-family: Lato;
 }
+
+.skills-table {
+  margin: 0 !important;
+}
+
+.skills-table .skills-title {
+  width: 150px;
+  flex: none !important;
+  text-align: right;
+  font-weight: bold;
+  font-family: Lato;
+}
+
+.skills-table .column {
+  padding: 0.2rem 1rem;
+}
+
+.skill-tag {
+  margin: 0 0.2rem;
+  color: #0c98df;
+  border: 1px solid #0696de38;
+  font-size: 0.8rem;
+  font-family: Lato;
+  padding: 0.3rem;
+  border-radius: 10%;
+  font-weight: Bold;
+}

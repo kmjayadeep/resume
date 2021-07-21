@@ -1,0 +1,40 @@
+<div class="columns is-vcentered">
+  <div class="about column is-three-quarters">
+    <h1 class="title">{{ .Name }}</h1>
+    <h2 class="subtitle">{{ .Title }}</h2>
+  </div>
+  <div class="details column">
+    <div>
+      <span class="icon-text">
+        <span class="icon">
+          <i class="fas fa-envelope"></i>
+        </span>
+        <span>{{ .Email }}</span>
+      </span>
+    </div>
+    <div>
+      <span class="icon-text">
+        <span class="icon">
+          <i class="fas fa-phone"></i>
+        </span>
+        <span>{{ .Phone }}</span>
+      </span>
+    </div>
+    <div>
+      <span class="icon-text">
+        <span class="icon">
+          <i class="fab fa-github"></i>
+        </span>
+        <span>{{ .Github }}</span>
+      </span>
+    </div>
+    <div>
+      <span class="icon-text">
+        <span class="icon">
+          <i class="fab fa-linkedin"></i>
+        </span>
+        <span>{{ .Linkedin }}</span>
+      </span>
+    </div>
+  </div>
+</div>

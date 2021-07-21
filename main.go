@@ -27,6 +27,7 @@ func main() {
   check(err)
 
   t.Execute(out, data)
+  fmt.Println("Resume generated successfully!")
 }
 
 // check error and exit program

@@ -77,7 +77,8 @@ Experience:
     Points:
     - Worked as Full stack developer across multiple teams (Java and UI5)
     - Responsible for end to end management of a cloud based full stack Application
-    - Developed various internal tools and scripts which vastly improved customer and developer experience
+    - Developed jarvis, a tool to automate customer deployment which reduced application delivery time from 30 mins to 2 minutes
+    - Got selected for SAP Academy of Engineering, A prestigious training program for selected employees across the Globe
   - Name: Sensomate Systems
     Location: Trivandrum
     Date: 2016
@@ -85,3 +86,6 @@ Experience:
     Points:
     - Worked as part of Development and debugging team
     - Projects include BLE based Attendance management system (full stack), Municipality management app (ionic) and VPN application for Android
+Projects:
+- Name: Majo Operator
+  Description: A Kubernetes Operator to automate Database backups

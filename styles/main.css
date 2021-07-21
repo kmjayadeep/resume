@@ -4,6 +4,10 @@
   font-family: Roboto
 }
 
+@media print {
+    .pagebreak { page-break-before: always; } /* page-break-after works, as well */
+}
+
 .about {
   flex: none !important;
   width: 72%;
@@ -99,4 +103,9 @@
 .exp-points {
   font-size: 0.9rem;
   margin-top: -1rem;
+}
+
+.exp-section {
+  margin: 1rem 0;
+  page-break-inside: avoid;
 }

@@ -1,0 +1,22 @@
+<div class="education">
+  <div class="title-section">
+    <div class="line">
+    </div>
+    <h1>Education</h1>
+  </div>
+
+  {{ range  .Educations }}
+
+  <div class="columns">
+    <div class="column">
+      <h2 class="edu-uni">{{ .University }}</h2>
+      <h3 class="edu-course">{{ .Course }} - {{ .Marks }}</h3>
+    </div>
+    <div class="column has-text-right">
+      <h2 class="edu-location">{{ .Location }}</h2>
+      <h3 class="edu-year">{{ .Year }}</h3>
+    </div>
+  </div>
+
+  {{ end }}
+</div>

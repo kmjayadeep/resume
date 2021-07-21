@@ -1,10 +1,63 @@
 .root {
-  max-width: 1000px !important;
-  /* border: 1px solid black; */
+  max-width: 1200px !important;
   padding: 2em;
-  font-family: Lato
+  font-family: Roboto
+}
+
+.about {
+  /* flex: none !important; */
+  /* width: 72%; */
+}
+
+.about .subtitle {
+  color: #02405f;
+  padding-top: 0.3rem;
+  font-family: Lato;
 }
 
 .details {
   font-style: italic;
+  font-size: 0.9rem;
+  flex: none !important;
+  width: 208px;
+}
+
+.title-section {
+  position: relative;
+  text-align: center;
+}
+
+.title-section .line {
+  position: absolute;
+  top: 1rem;
+  width: 100%;
+  border-bottom: 2px solid #adadad;
+  z-index: -1;
+}
+
+.title-section h1 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #0495de;
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  background: white;
+  z-index: 100;
+}
+
+.edu-location {
+  font-style: italic;
+  color: #0495de;
+  font-family: Lato;
+}
+
+.edu-year {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.edu-uni {
+  font-weight: bold;
+  font-family: Lato;
 }

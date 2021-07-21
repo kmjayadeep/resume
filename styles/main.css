@@ -5,8 +5,8 @@
 }
 
 .about {
-  /* flex: none !important; */
-  /* width: 72%; */
+  flex: none !important;
+  width: 72%;
 }
 
 .about .subtitle {
@@ -18,8 +18,7 @@
 .details {
   font-style: italic;
   font-size: 0.9rem;
-  flex: none !important;
-  width: 208px;
+  text-align: right;
 }
 
 .title-section {

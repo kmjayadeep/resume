@@ -5,6 +5,7 @@ import(
   "os"
   "io/ioutil"
   "gopkg.in/yaml.v3"
+  "html/template"
 )
 
 
@@ -22,8 +23,10 @@ func main() {
   err = yaml.Unmarshal(file, &data)
   check(err)
 
-  fmt.Println(data)
+  t, err := template.ParseGlob("template/*")
+  check(err)
 
+  t.Execute(out, data)
 }
 
 // check error and exit program

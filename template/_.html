@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ .Name }} - {{ .Title }}</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <!-- import partials -->
+    {{ template "about.html" . }}
+    {{ template "education.html" . }}
+    {{ template "skills.html" . }}
+    {{ template "experience.html" . }}
+    {{ template "projects.html" . }}
+    {{ template "achievements.html" . }}
+  </body>
+</html>

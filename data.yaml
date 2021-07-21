@@ -1,12 +1,12 @@
 Name: Jayadeep KM
-Title: Senior Software Engineer | Kubernetes Developer
+Title: Senior Software Engineer | Kubernetes Architect
 Phone: +91 9567125807
 Email: kmjayadeep@gmail.com
 Linkedin: kmjayadeep
 Github: kmjayadeep
 Address: Sreepadam House, Pallot, Anandashram P.O,
   Kanhangad, Kasaragod dist., Kerala, India - 671531
-Educations:
+Education:
   - University: International Institute of Information Techonology
     Course: PG Diploma in Cloud Computing
     Marks: "(Part time - ongoing)"
@@ -54,3 +54,34 @@ Skills:
     - Good Debugging Skills
     - Open Source Contributor
     - Linux Enthusiast
+Experience:
+  - Name: Avesha Systems
+    Location: Bangalore
+    Date: 2019-Present
+    Title: Senior Software Engineer
+    Points:
+    - Worked as Part of Mesh and Infrastructure team
+    - Designed and Developed Avesha Mesh, a multi cluster service mesh for Kubernetes
+    - Designed and Developed Service Discovery for Avesha Mesh
+    - Implemented DNS Server using CoreDNS
+    - Developed entire control plane components including CRDs, controllers, webhooks etc.
+    - Developed command line tool to interact with the mesh across different clusters
+    - Developed helm charts, deployment scripts, ArgoCD and Jenkins pipelines
+    - Managed Nexus and Jenkins servers
+    - Developed Terraform scripts for deployment
+    - Developed e2e test framework for multi cluster testing
+  - Name: SAP Labs
+    Location: Bangalore
+    Date: 2017-2021
+    Title: Full Stack Engineer
+    Points:
+    - Worked as Full stack developer across multiple teams (Java and UI5)
+    - Responsible for end to end management of a cloud based full stack Application
+    - Developed various internal tools and scripts which vastly improved customer and developer experience
+  - Name: Sensomate Systems
+    Location: Trivandrum
+    Date: 2016
+    Title: Developer Intern
+    Points:
+    - Worked as part of Development and debugging team
+    - Projects include BLE based Attendance management system (full stack), Municipality management app (ionic) and VPN application for Android

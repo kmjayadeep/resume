@@ -61,6 +61,10 @@
   font-family: Lato;
 }
 
+.skills .title-section{
+  margin-bottom: 0.3rem;
+}
+
 .skills-table {
   margin: 0 !important;
 }
@@ -86,4 +90,13 @@
   padding: 0.3rem;
   border-radius: 10%;
   font-weight: Bold;
+}
+
+.exp {
+  margin-top: 1rem;
+}
+
+.exp-points {
+  font-size: 0.9rem;
+  margin-top: -1rem;
 }

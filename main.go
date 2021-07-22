@@ -10,10 +10,6 @@ import(
 
 
 func main() {
-  // Create index.html for output
-  out, err := os.Create("index.html")
-  defer out.Close()
-  check(err)
 
   data := map[string]interface{}{}
 
@@ -23,11 +19,20 @@ func main() {
   err = yaml.Unmarshal(file, &data)
   check(err)
 
-  t, err := template.ParseGlob("template/*")
-  check(err)
+  formats := []string{"general"}
 
-  t.Execute(out, data)
-  fmt.Println("Resume generated successfully!")
+  for _, format := range formats {
+    t, err := template.ParseGlob("templates/"+format+"/*")
+    check(err)
+
+    out, err := os.Create(format+".html")
+    defer out.Close()
+    check(err)
+
+    t.Execute(out, data)
+    fmt.Printf("Resume generated successfully for %s\n", format)
+  }
+
 }
 
 // check error and exit program

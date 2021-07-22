@@ -88,4 +88,31 @@ Experience:
     - Projects include BLE based Attendance management system (full stack), Municipality management app (ionic) and VPN application for Android
 Projects:
 - Name: Majo Operator
-  Description: A Kubernetes Operator to automate Database backups
+  Link: github.com/kmjayadeep/majo-operator
+  Points:
+    - A Kubernetes Operator to automate periodic Database backups in Kubernetes
+    - Implemented using Operator SDK and GO
+    - Supports Mongodb and Mysql as Database sources
+    - Supports a wide range of storage options like S3, Sftp, Ftp etc.
+- Name: Watermark
+  Link: github.com/kmjayadeep/watermark-microservices
+  Points:
+    - An example project which showcases asynchronous, event-driven cloud native solution to a problem
+    - Tech stack include kubernetes(GKE), terraform, pubsub, nodejs, mongodb, graphql, GRPC, KNative
+    - Includes one click script for provisioning, running tests and showing results
+- Name: Wshare
+  Link: github.com/kmjayadeep/wshare
+  Points:
+    - A simple, lightweight web app to share files through local & remote networks. Written in node.js using Express and ejs. Available in npm repository and github
+    - Supports drag and drop upload and download functionality
+MicroProjects:
+- Name: resume
+  Description: This resume is generated using golang and html templates
+- Name: featureflag-nodejs
+  Description: A feature flag implementation in nodejs
+- Name: docker-compose-generator
+  Description: Generate docker-compose.yaml from command line
+- Name: nanodateformat
+  Description: Lightweight date formatter for Javascript
+- Name: digitalocean-k8s-terraform
+  Description: A Terraform script to create a Kubernetes cluster in Digitalocean with ingress controller, cert manager and metrics server

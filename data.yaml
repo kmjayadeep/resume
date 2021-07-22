@@ -116,3 +116,9 @@ MicroProjects:
   Description: Lightweight date formatter for Javascript
 - Name: digitalocean-k8s-terraform
   Description: A Terraform script to create a Kubernetes cluster in Digitalocean with ingress controller, cert manager and metrics server
+Achievements:
+- Top contributor in open source project - "Litmus chaos engine" for Hactoberfest 2019
+- Top contributor in open source project - "OpenEBS" for Hactoberfest 2018
+- Front-end and Back-end certification from Freecodecamp
+- Machine learning certificate from Coursera
+- Outstanding student volunteer for IEEE in 2017

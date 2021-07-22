@@ -1,0 +1,16 @@
+<div class="ach">
+  <div class="title-section">
+    <div class="line"></div>
+    <h1>Achievements and Certifications</h1>
+  </div>
+
+  <div class="content exp-points">
+    <ul>
+      {{ range .Achievements }}
+
+      <li>{{ . }}</li>
+
+      {{ end }}
+    </ul>
+  </div>
+</div>

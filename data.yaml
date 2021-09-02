@@ -1,5 +1,5 @@
 Name: Jayadeep KM
-Title: Senior Software Engineer | Kubernetes Architect
+Title: Senior Software Engineer | Kubernetes Architect | Certified Kubernetes Administrator
 Phone: +91 9567125807
 Email: kmjayadeep@gmail.com
 Linkedin: kmjayadeep
@@ -122,6 +122,7 @@ MicroProjects:
 - Name: digitalocean-k8s-terraform
   Description: A Terraform script to create a Kubernetes cluster in Digitalocean with ingress controller, cert manager and metrics server
 Achievements:
+- Certified Kubernetes Administrator - 95% (LF-kdin5ol6q2) - 2021
 - Top contributor in open source project - "Litmus chaos engine" for Hactoberfest 2019
 - Top contributor in open source project - "OpenEBS" for Hactoberfest 2018
 - Front-end and Back-end certification from Freecodecamp

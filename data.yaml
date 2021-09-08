@@ -66,7 +66,7 @@ Experience:
     Title: Senior Software Engineer
     Points:
     - Worked as Part of Mesh and Infrastructure team
-    - Designed and Developed Avesha Mesh, a multi cluster service mesh for Kubernetes
+    - Designed and Developed Avesha Mesh, a multi cluster service mesh for Kubernetes (Golang, Operator SDK)
     - Designed and Developed Service Discovery for Avesha Mesh
     - Implemented DNS Server using CoreDNS
     - Developed entire control plane components including CRDs, controllers, webhooks etc.

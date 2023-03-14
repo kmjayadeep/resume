@@ -10,7 +10,11 @@
   <div class="columns">
     <div class="column is-three-quarters">
       <h2 class="edu-uni">{{ .University }}</h2>
+      {{ if .Marks }} 
       <h3 class="edu-course">{{ .Course }} - {{ .Marks }}</h3>
+      {{ else }}
+      <h3 class="edu-course">{{ .Course }}</h3>
+      {{ end }}
     </div>
     <div class="column has-text-right">
       <h2 class="edu-location">{{ .Location }}</h2>

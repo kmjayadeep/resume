@@ -1,6 +1,6 @@
 Name: Jayadeep KM
-Title: Senior Software Engineer | Kubernetes Architect | Certified Kubernetes Administrator
-Phone: +91 9567125807
+Title: Devops Engineer | Golang Developer | Certified Kubernetes Administrator
+Phone: +49 1742552480
 Email: kmjayadeep@gmail.com
 Linkedin: kmjayadeep
 Github: kmjayadeep
@@ -9,12 +9,10 @@ Languages:
 - Malayalam (Native)
 - English (Fluent)
 Dob: 1995 September 15
-Address: Sreepadam House, Pallot, Anandashram P.O,
-  Kanhangad, Kasaragod dist., Kerala, India - 671531
+Address: Dorfstr. 3, 13597 Berlin, Germany
 Education:
   - University: International Institute of Information Techonology
     Course: PG Diploma in Cloud Computing
-    Marks: "(Part time - ongoing)"
     Location: IIIT, Bangalore (Online)
     Year: 2021
   - University: Kerala University
@@ -60,9 +58,28 @@ Skills:
     - Open Source Contributor
     - Linux Enthusiast
 Experience:
+  - Name: Commercetools GmbH
+    Location: Berlin, Germany
+    Date: 2022-current
+    Title: Site Reliability Engineer
+    Points:
+    - Kubenetes SRE
+    - Worked in various migration projects
+    - Involved in maintainance and upgradation of istio service mesh
+  - Name: Dersalvador
+    Location: Zurich (Online)
+    Date: 2020-2022
+    Title: Senior Devops Engineer
+    Points:
+    - Worked across multiple projects based on microservices
+    - Setup and maintained kubernetes using terraform in GCP
+    - Setup pipelines in Github actions, Gitlab CI, Flux and ArgoCD
+    - Designd and implemented event-driven asynchronous microservices pattern
+    - Developed rest apis in nodejs and go
+    - Worked in various cloud migration projects
   - Name: Avesha Systems
     Location: Bangalore
-    Date: 2019-Present
+    Date: 2019-2021
     Title: Senior Software Engineer
     Points:
     - Worked as Part of Mesh and Infrastructure team
@@ -70,7 +87,7 @@ Experience:
     - Designed and Developed Service Discovery for Avesha Mesh
     - Implemented DNS Server using CoreDNS
     - Developed entire control plane components including CRDs, controllers, webhooks etc.
-    - Developed command line tool to interact with the mesh across different clusters
+    - Developed command line tool (golang) to interact with the mesh across different clusters
     - Developed helm charts, deployment scripts, ArgoCD and Jenkins pipelines
     - Managed Nexus and Jenkins servers
     - Developed Terraform scripts for deployment
@@ -80,7 +97,7 @@ Experience:
     Date: 2017-2021
     Title: Full Stack Engineer
     Points:
-    - Worked as Full stack developer across multiple teams (Java and UI5)
+    - Worked as Full stack developer across multiple teams (Java, Go and UI5)
     - Responsible for end to end management of a cloud based full stack Application
     - Developed jarvis, a tool to automate customer deployment which reduced application delivery time from 30 mins to 2 minutes
     - Got selected for SAP Academy of Engineering, A prestigious training program for selected employees across the Globe

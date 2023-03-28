@@ -8,24 +8,122 @@
     .pagebreak { page-break-before: always; } /* page-break-after works, as well */
 }
 
-.left-sidebar {
-  flex: none !important;
-  width: 270px;
-}
-
 .photo {
-  margin-top: 2rem;
-  text-align:center;
+  width: 100px;
+  margin-left: 1rem;
 }
 
-.photo img {
-  width: 80%;
+.about {
+  flex: none !important;
+  width: 65%;
+  text-align: center;
 }
 
-.sidebar-heading {
-  border-bottom: 1px solid black;
+.about .subtitle {
+  color: #02405f;
+  padding-top: 0.3rem;
+  font-family: Lato;
 }
 
-.side-content {
-  margin:1rem 0;
+ul.languages {
+  margin-top: 0px !important;
+}
+
+.details {
+  font-style: italic;
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+.title-section {
+  position: relative;
+  text-align: center;
+}
+
+.title-section .line {
+  position: absolute;
+  top: 1rem;
+  width: 100%;
+  border-bottom: 2px solid #adadad;
+  z-index: -1;
+}
+
+.title-section h1 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #0495de;
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  background: white;
+  z-index: 100;
+}
+
+.edu-location {
+  font-style: italic;
+  color: #0495de;
+  font-family: Lato;
+}
+
+.edu-year {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.edu-uni {
+  font-weight: bold;
+  font-family: Lato;
+}
+
+.skills .title-section{
+  margin-bottom: 0.3rem;
+}
+
+.skills-table {
+  margin: 0 !important;
+}
+
+.skills-table .skills-title {
+  width: 150px;
+  flex: none !important;
+  text-align: right;
+  font-weight: bold;
+  font-family: Lato;
+}
+
+.skills-table .column {
+  padding: 0.2rem 1rem;
+}
+
+.skill-tag {
+  margin: 0 0.2rem;
+  color: #0c98df;
+  border: 1px solid #0696de38;
+  font-size: 0.8rem;
+  font-family: Lato;
+  padding: 0.3rem;
+  border-radius: 10%;
+  font-weight: Bold;
+}
+
+.exp {
+  margin-top: 1rem;
+}
+
+.exp-points {
+  font-size: 0.9rem;
+  margin-top: -1rem;
+}
+
+.exp-section {
+  margin: 1rem 0;
+  page-break-inside: avoid;
+}
+
+.ach {
+  margin-top: 1rem;
+}
+
+.ach .content {
+  margin-top: 1rem;
 }

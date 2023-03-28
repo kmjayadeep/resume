@@ -1,0 +1,32 @@
+<div class="ach">
+  <div class="title-section">
+    <div class="line"></div>
+    <h1>Personal Details</h1>
+  </div>
+
+  <div class="content">
+    <div class="columns">
+      <div class="column">
+        <div>
+          Address: {{ .Address }}
+        </div>
+        <div>
+          Nationality: {{ .Nationality }}
+        </div>
+        <div>
+          Date of Birth: {{ .Dob }}
+        </div>
+      </div>
+      <div class="column">
+        <div>
+          Languages
+          <ul class="languages">
+          {{ range .Languages }}
+            <li>{{ .}}</li>
+          {{ end}}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

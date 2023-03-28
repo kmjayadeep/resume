@@ -13,3 +13,12 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# Output
+euro.html
+general.html
+
+
+# Sensitive info
+data.yaml
+assets/photo.jpg

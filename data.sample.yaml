@@ -1,0 +1,61 @@
+Name: name
+Title: Devops Engineer | Golang Developer | Certified Kubernetes Administrator
+Phone: xxxx
+Email: xxx
+Linkedin: kmjayadeep
+Github: kmjayadeep
+Nationality: xxx
+Languages:
+- English (Fluent)
+- German (A1)
+Dob: xxx
+Address: xxx
+Education:
+  - University: xxx
+    Course: xxx
+    Location: xxx
+    Year: 2021
+Skills:
+  - Type: Cloud
+    Items:
+    - AWS
+    - Google Cloud
+    - Hetzner
+    - DigitalOcean
+  - Type: Devops
+    Items:
+    - Docker
+    - Kubernetes
+    - Jenkins
+    - ArgoCD
+    - Terraform
+    - Github Actions
+    - Gitlab pipelines
+    - Pulumi
+Experience:
+  - Name: xxx
+    Location: xxx
+    Date: 2022 Jan - Current
+    Title: xxx
+    Points:
+    - xxx
+    - xxx
+  - Name: xxx
+    Location: xxx
+    Date: 2022 Jan - Current
+    Title: xxx
+    Points:
+    - xxx
+    - xxx
+Projects:
+- Name: xxx
+  Link: xxx
+  Points:
+    - xxx
+    - xxx
+MicroProjects:
+- Name: resume
+  Description: This resume is generated using golang and html templates
+Achievements:
+- xxx
+- xxx

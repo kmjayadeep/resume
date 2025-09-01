@@ -1,4 +1,4 @@
-<div class="education">
+<div class="section-card education">
   <div class="title-section">
     <div class="line">
     </div>
@@ -6,8 +6,7 @@
   </div>
 
   {{ range  .Education }}
-
-  <div class="columns">
+  <div class="columns" style="margin-bottom: 0.5rem;">
     <div class="column is-three-quarters">
       <h2 class="edu-uni">{{ .University }}</h2>
       {{ if .Marks }} 
@@ -21,6 +20,5 @@
       <h3 class="edu-year">{{ .Year }}</h3>
     </div>
   </div>
-
   {{ end }}
 </div>

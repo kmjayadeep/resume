@@ -1,23 +1,21 @@
-<div class="skills">
+<div class="section-card skills">
   <div class="title-section">
     <div class="line"></div>
     <h1>Key Skills</h1>
   </div>
 
   {{ range .Skills }}
-
   <div class="columns skills-table">
     <div class="column has-text-right skills-title">
       <h2 class="skill-type">{{ .Type }}</h2>
     </div>
     <div class="column">
-      <h2 class="skill-item">
+      <div class="skill-item">
         {{ range .Items }}
-        <span class="skill-tag"> {{ . }} </span>
+        <span class="skill-tag">{{ . }}</span>
         {{ end }}
-      </h2>
+      </div>
     </div>
   </div>
-
   {{ end }}
 </div>

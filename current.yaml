@@ -1,0 +1,172 @@
+Name: Jayadeep Kinavoor Madam
+Title: Devops Engineer | Certified Kubernetes Administrator | AWS Solutions Architect
+Phone: +41 762657164
+Email: mail@jayadeep.me
+Linkedin: kmjayadeep
+Github: kmjayadeep
+Nationality: Indian
+Languages:
+- English (Fluent)
+- German (A1)
+- French (A1)
+Dob: 1995 September 15
+Address: Vernier, Switzerland
+Education:
+  - University: International Institute of Information Techonology
+    Course: PG Diploma in Cloud Computing
+    Location: IIIT, Bangalore
+    Year: 2021
+  - University: Kerala University
+    Course: BTech in Computer Science
+    Marks: "CGPA: 8.0"
+    Location: College Of Engineering, Trivandrum
+    Year: 2017
+Skills:
+  - Type: Cloud
+    Items:
+    - AWS
+    - Google Cloud
+    - Hetzner
+    - DigitalOcean
+  - Type: Devops
+    Items:
+    - Docker
+    - Kubernetes
+    - Jenkins
+    - ArgoCD
+    - Terraform
+    - Github Actions
+    - Gitlab pipelines
+    - Pulumi
+  - Type: Languages
+    Items:
+    - Go
+    - Java
+    - Javascript/Typescript
+    - Nodejs
+    - Bash
+    - Python
+  - Type: Frameworks
+    Items:
+    - Gin
+    - React
+    - Angular
+    - ExpressJs
+    - Kubebuilder
+    - Operator SDK
+    - Terratest
+  - Type: Others
+    Items:
+    - Vim
+    - Version Control
+    - MySQL
+    - Mongodb
+    - Scripting
+  - Type: General
+    Items:
+    - Good Debugging Skills
+    - Open Source Contributor
+    - Linux Enthusiast
+Experience:
+  - Name: SonarSource SA
+    Location: Geneva, Switzerland
+    Date: 2024 Jan - Current
+    Title: Platform Engineer (Full-time)
+    Points:
+    - Took ownership of Hashicorp Vault infrastructure that was previously managed by a third party company.
+      Helped the team to gain expertise in managing vault, and convinced the management to bring vault management in-house. Ended up saving ~50K per year on support contract.
+    - Helped the team to adopt SRE principles and best practices to manage our services
+    - Undertook a massive migration project involving 10+ environments owned by our team in AWS. Implemented new VPCs to use centralized IPAM, GWLB for packet inspection and TGW for on-prem connectivity.
+    - Developed an SDK that enabled all teams to develop new self service actions in our IDP platform (port.io)
+    - Took end to end ownership of onboarding Gradle enterprise. Complete infra setup was done using Terraform, EKS and helm. It was used in 100+ repositories
+    - Undertook the hardening of 500+ IAM roles and policies in AWS to comply with ISO Audit requirements
+  - Name: Commercetools GmbH
+    Location: Berlin, Germany
+    Date: 2022 Jan - 2023 Dec
+    Title: Site Reliability Engineer (Full-time)
+    Points:
+    - Worked as Kubenetes SRE with focus on Observablity - Logging, Metrics and Alerts
+    - Took ownership and executed live migration of 7 production clusters in GKE
+    - Developed POC for scaling our prometheus setup using prometheus operator and sharding
+    - Gained expertise in setting up Horizontally scalable, Highly Available monitoring stack
+    - Contributed in setting up Meta-monitoring (monitoring the monitoring stack)
+    - On-call one day per week to take care of system upgrades, improvement of automation etc.
+  - Name: Dersalvador
+    Location: Zurich (Remote)
+    Date: 2020 Jan - 2022 Jan
+    Title: Senior Devops Engineer (Part-time, Weekends)
+    Points:
+    - Worked across multiple projects based on microservices
+    - Setup and maintained production grade kubernetes clusters using terraform in GCP
+    - Setup pipelines in Github actions, Gitlab CI, Flux and ArgoCD
+    - Designed and implemented event-driven asynchronous microservices pattern
+    - Developed REST APIs in NodeJS and GO
+    - Worked in various Containerization and Cloud Migration projects
+  - Name: Avesha Systems
+    Location: Bangalore (Remote)
+    Date: 2019 Apr - 2021 Dec
+    Title: Senior Software Engineer (Initially part-time, Transitioned to Full-time)
+    Points:
+    - Took responsibility of both development and operational roles based on requirements
+    - Designed and Developed Kubeslice, a multi cluster service mesh for Kubernetes in Golang using Operator SDK (Open-source)
+    - Designed and Developed Multi-cluster service discovery for Kubeslice
+    - Implemented DNS Server for Kubeslice using custom CoreDNS plugin
+    - Developed entire control plane components including CRDs, controllers, webhooks etc.
+    - Developed command line tool (golang) to interact with the mesh across different clusters
+    - Developed helm charts, deployment scripts, ArgoCD gitops setup and Jenkins pipelines
+    - Managed Nexus and Jenkins servers
+    - Developed Terraform scripts for deployment across cloud providers
+    - Developed custom E2e test framework for multi cluster testing
+  - Name: SAP Labs
+    Location: Bangalore, India
+    Date: 2017 Jun - 2021 Jan
+    Title: Full Stack Engineer (Full-time)
+    Points:
+    - Worked as Full stack developer across multiple teams (Java, Go and UI5)
+    - Responsible for end to end management of a cloud based full stack Application
+    - Developed jarvis, a tool to automate customer deployment which reduced application delivery time from 30 mins to 2 minutes
+    - Got selected for SAP Academy of Engineering, A prestigious training program for selected employees across the Globe
+  - Name: Sensomate Systems 
+    Location: Trivandrum, India
+    Date: 2016
+    Title: Developer Intern (part time during studies)
+    Points:
+    - Worked as part of Development and debugging team
+    - Projects include BLE based Attendance management system (full stack), Municipality management app (ionic) and VPN application for Android
+Projects:
+- Name: Majo Operator
+  Link: github.com/kmjayadeep/majo-operator
+  Points:
+    - A Kubernetes Operator to automate periodic Database backups in Kubernetes
+    - Implemented using Operator SDK and GO
+    - Supports Mongodb and Mysql as Database sources, configurable as CRDs
+    - Supports a wide range of storage options like S3, Sftp, Ftp etc.
+- Name: Watermark
+  Link: github.com/kmjayadeep/watermark-microservices
+  Points:
+    - An example project which showcases asynchronous, event-driven cloud native solution to a problem
+    - Tech stack include kubernetes(GKE), terraform, pubsub, nodejs, mongodb, graphql, GRPC, KNative
+    - Includes one click script for provisioning, running tests and showing results
+- Name: Wshare
+  Link: github.com/kmjayadeep/wshare
+  Points:
+    - A simple, lightweight web app to share files through local & remote networks. Written in node.js using Express and ejs. Available in npm repository and github
+    - Supports drag and drop upload and download functionality
+MicroProjects:
+- Name: resume
+  Description: This resume is generated using golang and html templates
+- Name: featureflag-nodejs
+  Description: A feature flag implementation in nodejs
+- Name: docker-compose-generator
+  Description: Generate docker-compose.yaml from command line
+- Name: nanodateformat
+  Description: Lightweight date formatter for Javascript
+- Name: digitalocean-k8s-terraform
+  Description: A Terraform script to create Kubernetes cluster with ingress controller, cert-manager and metrics server
+Achievements:
+- Certified Kubernetes Administrator - 95% (LF-kdin5ol6q2) - 2021
+- Top contributor in open source project - "Litmus chaos engine" for Hactoberfest 2019
+- Top contributor in open source project - "OpenEBS" for Hactoberfest 2018
+- Front-end and Back-end certification from Freecodecamp
+- Machine learning certificate from Coursera
+- Outstanding student volunteer for IEEE in 2017

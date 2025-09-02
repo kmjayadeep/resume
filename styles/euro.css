@@ -1,6 +1,6 @@
 .root {
   max-width: 1200px !important;
-  padding: 1.5em;
+  padding: 0;
   font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: white;
 }
@@ -23,23 +23,35 @@ body {
   .root {
     background: white !important;
     box-shadow: none !important;
+    padding: 0 !important;
   }
   
   .section-card {
     box-shadow: none !important;
-    page-break-inside: avoid;
+    margin-bottom: 0.25rem !important;
+    page-break-inside: auto;
   }
   
   .header-section {
     background: white !important;
-    border: 2px solid #000 !important;
+    border: 1px solid #000 !important;
+    margin-bottom: 0.25rem !important;
+  }
+  
+  .personal-compact {
+    margin-bottom: 0.25rem !important;
+  }
+  
+  .exp-section {
+    page-break-inside: auto;
+    margin: 0.25rem 0 !important;
   }
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
   .root {
-    padding: 1rem;
+    padding: 0;
   }
   
   .about {
@@ -74,7 +86,7 @@ body {
   border: 1px solid #dee2e6;
   border-radius: 6px;
   padding: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   background: #ffffff;
 }
 
@@ -149,7 +161,7 @@ ul.languages {
   border: 1px solid #dee2e6;
   border-radius: 8px;
   padding: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .title-section {
@@ -260,11 +272,10 @@ ul.languages {
 
 .exp-points {
   font-size: 0.9rem;
-  margin-top: 0.5rem;
 }
 
 .exp-section {
-  margin: 0.75rem 0;
+  margin: 2rem 0;
   page-break-inside: avoid;
 }
 
@@ -275,7 +286,7 @@ ul.languages {
   color: #495057;
   padding: 0.75rem;
   border-radius: 6px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .personal-compact .personal-grid {

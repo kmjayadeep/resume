@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ .Name }} | Portfolio</title>
+    <meta
+      name="description"
+      content="{{ .Name }} is a {{ .Title }} focused on platform engineering, cloud infrastructure, developer experience, and AI enablement."
+    />
+    <link rel="stylesheet" href="styles/portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page-shell">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Platform Engineering · AI Enablement · Cloud Infrastructure</p>
+          <h1>{{ .Name }}</h1>
+          <p class="hero-lead">
+            {{ .Title }} building reliable internal platforms, secure cloud foundations, and practical AI systems that teams actually adopt.
+          </p>
+          <p class="hero-tech">{{ .CoreTech }}</p>
+
+          <div class="hero-actions">
+            <a href="mailto:{{ .Email }}">Email</a>
+            <a href="https://github.com/{{ .Github }}" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/{{ .Linkedin }}" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel">
+          <div class="panel-card profile-card">
+            <div class="profile-top">
+              <div>
+                <p class="panel-label">Base</p>
+                <p class="panel-value">{{ .Address }}</p>
+              </div>
+              <div>
+                <p class="panel-label">Nationality</p>
+                <p class="panel-value">{{ .Nationality }}</p>
+              </div>
+            </div>
+            <div class="profile-top">
+              <div>
+                <p class="panel-label">Email</p>
+                <p class="panel-value">{{ .Email }}</p>
+              </div>
+              <div>
+                <p class="panel-label">Phone</p>
+                <p class="panel-value">{{ .Phone }}</p>
+              </div>
+            </div>
+            <div>
+              <p class="panel-label">Languages</p>
+              <div class="tag-row">
+                {{ range .Languages }}
+                <span>{{ . }}</span>
+                {{ end }}
+              </div>
+            </div>
+          </div>
+
+          <div class="panel-card impact-card">
+            <p class="panel-label">Recent Highlights</p>
+            <ul>
+              <li>Company-wide AI enablement through workshops, internal skills, and agent workflows.</li>
+              <li>Secure AI and MCP gateway rollout with governance, budgets, and traceability.</li>
+              <li>Platform modernization across AWS, Kubernetes, Terraform, Vault, and developer tooling.</li>
+            </ul>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p>Selected Impact</p>
+          <h2>What I’ve been driving lately</h2>
+        </div>
+        <div class="impact-grid">
+          <article class="impact-tile">
+            <span class="impact-index">01</span>
+            <h3>AI adoption at scale</h3>
+            <p>
+              Drove company-wide AI adoption through demos, workshops, and a reusable knowledge base for Claude Code, Codex, Cursor, OpenCode, custom skills, workflows, and MCP setup.
+            </p>
+          </article>
+          <article class="impact-tile">
+            <span class="impact-index">02</span>
+            <h3>Governed AI platform access</h3>
+            <p>
+              Implemented an AI gateway and MCP gateway so teams can use frontier models and MCP services through a safer, observable, centrally managed entry point.
+            </p>
+          </article>
+          <article class="impact-tile">
+            <span class="impact-index">03</span>
+            <h3>Platform foundations</h3>
+            <p>
+              Built and improved internal platform capabilities around Vault, AWS networking, Gradle Enterprise, IAM hardening, and self-service actions through the IDP.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p>Experience</p>
+          <h2>Roles across platform, SRE, and cloud-native engineering</h2>
+        </div>
+
+        <div class="timeline">
+          {{ range .Experience }}
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <p class="timeline-date">{{ .Date }}</p>
+              <p class="timeline-location">{{ .Location }}</p>
+            </div>
+            <div class="timeline-body">
+              <h3>{{ .Name }}</h3>
+              <p class="timeline-role">{{ .Title }}</p>
+              <ul>
+                {{ range .Points }}
+                <li>{{ . }}</li>
+                {{ end }}
+              </ul>
+            </div>
+          </article>
+          {{ end }}
+        </div>
+      </section>
+
+      <section class="section two-column">
+        <div>
+          <div class="section-heading">
+            <p>Projects</p>
+            <h2>Hands-on work outside day jobs</h2>
+          </div>
+          <div class="project-list">
+            {{ range .Projects }}
+            <article class="project-card">
+              <div class="project-top">
+                <h3>{{ .Name }}</h3>
+                <a href="https://{{ .Link }}" target="_blank" rel="noreferrer">{{ .Link }}</a>
+              </div>
+              <ul>
+                {{ range .Points }}
+                <li>{{ . }}</li>
+                {{ end }}
+              </ul>
+            </article>
+            {{ end }}
+          </div>
+        </div>
+
+        <div class="side-stack">
+          <div class="section-heading small">
+            <p>Capabilities</p>
+            <h2>Core skills</h2>
+          </div>
+          <div class="skill-groups">
+            {{ range .Skills }}
+            <article class="skill-card">
+              <h3>{{ .Type }}</h3>
+              <div class="tag-row">
+                {{ range .Items }}
+                <span>{{ . }}</span>
+                {{ end }}
+              </div>
+            </article>
+            {{ end }}
+          </div>
+
+          <div class="section-heading small">
+            <p>Education</p>
+            <h2>Academic background</h2>
+          </div>
+          <div class="mini-list">
+            {{ range .Education }}
+            <article class="mini-card">
+              <h3>{{ .University }}</h3>
+              <p>{{ .Course }}</p>
+              <p>{{ .Location }} · {{ .Year }}</p>
+            </article>
+            {{ end }}
+          </div>
+
+          <div class="section-heading small">
+            <p>Recognition</p>
+            <h2>Certifications & achievements</h2>
+          </div>
+          <div class="mini-list">
+            {{ range .Achievements }}
+            <article class="mini-card">
+              <p>{{ . }}</p>
+            </article>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p>More</p>
+          <h2>Micro projects</h2>
+        </div>
+        <div class="micro-grid">
+          {{ range .MicroProjects }}
+          <article class="micro-card">
+            <h3>{{ .Name }}</h3>
+            <p>{{ .Description }}</p>
+          </article>
+          {{ end }}
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

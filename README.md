@@ -7,6 +7,6 @@ My resume, rendered using html, css and golang
 
 2. Run `make`
 
-3. It will generate html files based on the templates. Currently there are two templates, `euro` and `general`. You can edit them in `templates` folder or add your own.
+3. It will generate html files based on the templates. Currently there are three templates, `euro`, `general`, and `portfolio`. You can edit them in `templates` folder or add your own.
 
 4. Open the generated html file in your browser. Print the page as pdf to get pdf version of the resume.

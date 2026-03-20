@@ -19,7 +19,7 @@ func main() {
   err = yaml.Unmarshal(file, &data)
   check(err)
 
-  formats := []string{"general", "euro"}
+  formats := []string{"general", "euro", "portfolio"}
 
   for _, format := range formats {
     t, err := template.ParseGlob("templates/"+format+"/*")
